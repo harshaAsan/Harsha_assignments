@@ -1,11 +1,11 @@
 .orange,.white,.green{
     width: 700px;
-    height: 150px;
+    height: 150px;px;
     position: fixed;
     background-color: #ff9900;
     position: relative;
-    left: 400px;
-    top: 100px;
+    left: 4px;
+    
 }
 .white{
     background-color:#F0F8FF;
@@ -86,6 +86,11 @@ section{
     transform: rotate(175deg);
 }
 section{
-    
 
+    box-shadow: -30PX 30PX 20PX rgb(0,0,0,0.3);
+        position: relative;
+    left: 400px;
+    top: 100px;
+    width: 700px;
+    height: 500px;
 }
